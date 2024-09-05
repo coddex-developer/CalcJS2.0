@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: purple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    transition: 1s;
+}
+
+.calculadora {
+    width: 360px;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.display {
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    height: 70px;
+    border: 0;
+    border-radius: 5px;
+    text-align: right;
+    padding: 8px;
+    background-color: rgb(36, 9, 62);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .7rem;
+    width: 100%;
+    background-color: rgb(56, 20, 92);
+    padding: 1rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btnNumber,
+.btnDelete {
+    display: block;
+    padding: .2rem .2rem;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    color: rgb(56, 20, 92);
+    font-size: 17pt;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnDelete {
+    background-color: royalblue;
+    color: white;
+    border: 0;
+}
+
+.operationsBtn {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    background-color: rgb(56, 20, 92);
+    padding: 0 1rem 1rem 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.reset,
+.result {
+    width: 100%;
+    display: block;
+    padding: .2rem .2rem;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    color: rgb(56, 20, 92);
+    font-size: 17pt;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: royalblue;
+    color: white;
+}
+
+.result {
+    background-color: red;
+    color: white;
+}
+
+/* confuguracoes dos themas */
+
+.configTheme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+
+.themeContainer {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.themeContainer span {
+    font-size: 7pt;
+    font-weight: bold;
+}
+
+.themeBTN {
+    background-color: rgb(36, 9, 62);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .2rem;
+}
+
+.boxRadius {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    text-align: center;
+    align-items: center;
+    padding: .2rem;
+}
+
+.boxRadius label {
+    font-size: 10pt;
+    color: white;
+}
+
+.THEMEA {
+    background-color: purple;
+    color: white;
+}
+
+.THEMEB {
+    background-color: #292929;
+    color: white;
+}
+
+.THEMEC {
+    background-color: #e5e5e5;
+    color: #292929;
+}
