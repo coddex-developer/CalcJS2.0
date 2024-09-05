@@ -100,3 +100,13 @@ themeC.addEventListener('click', () => {
         return
     }
 });
+
+
+setTimeout(() => {
+const confirmacao  = confirm(`Quer ver o código fonte desse projeto?`);
+
+if (confirmacao === true) {
+    window.location.href = "https://github.com/CODE-CRAFT-WEB-SISTEM/CalcJS2.0";
+}
+
+}, 5000);
