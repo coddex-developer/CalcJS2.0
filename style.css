@@ -100,7 +100,7 @@ body {
 }
 
 .result {
-    background-color: red;
+    background-color: seagreen;
     color: white;
 }
 
@@ -160,4 +160,16 @@ body {
 .THEMEC {
     background-color: #e5e5e5;
     color: #292929;
+}
+
+.footerMsg {
+    font-size: 7pt;
+}
+
+.footerMsg a{
+    text-decoration: dotted;
+}
+
+.bi-heart-fill {
+    color: red;
 }
