@@ -103,10 +103,10 @@ themeC.addEventListener('click', () => {
 
 
 setTimeout(() => {
-const confirmacao  = confirm(`Quer ver o código fonte desse projeto?`);
+const confirmacao  = confirm(`🤖 Olá bem vindo a Coddex gostaria de conversar sobre algum projeto web em mente conosco?`);
 
 if (confirmacao === true) {
-    window.location.href = "https://github.com/CODE-CRAFT-WEB-SISTEM/CalcJS2.0";
+    window.location.href = "https://wa.me/+5561981323772/?text="👋+Olá+Gabriel+ ";
 }
 
-}, 5000);
+}, 1000 * 6);
