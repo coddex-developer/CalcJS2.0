@@ -103,10 +103,10 @@ themeC.addEventListener('click', () => {
 
 
 setTimeout(() => {
-const confirmacao  = confirm(`🤖 Olá bem vindo a Coddex gostaria de conversar sobre algum projeto web em mente conosco?`);
+const confirmacao  = confirm(`🤖 Olá bem vindo a CoddeX Developer gostaria de conversar sobre algum projeto web em mente conosco?`);
 
 if (confirmacao === true) {
-    window.location.href = "https://wa.me/+5561981323772/?text="👋+Olá+Gabriel+ ";
+    window.location.href = "https://wa.me/+5561981323772";
 }
 
 }, 1000 * 6);
